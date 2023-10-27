@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* by Ruben Vardanyan */
+.inp-border{
+	padding: 5px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	margin: 2vh 1vh;
+	border-radius: 67px;
+  max-width:200px;
+  
 }
-
-.App-link {
-  color: #61dafb;
+input{
+	font-size: 17px;
 }
+.input{
+  text-align:center;
+	padding: 15px;
+	outline: none;
+	border:double 0;
+	background: #252525;
+	border-radius: 67px;
+	position: relative;
+	box-sizing: border-box;
+	display: block;
+  width: 100%;
+}
+.a1{
+  background: linear-gradient(330.28deg,#FF6E1D  100%,#FF6E1D  100%,#FF6E1D  100%);
+  
+}
+.a1 >input{
+  color: #FF6E1D;
+}
+.a1 >input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #FF6E1D;
+  opacity: 0.6; /* Firefox */
+}
+.a2{
+   background: linear-gradient(330.28deg,#2CFFF2  100%,#2CFFF2  100%,#2CFFF2  100%);
+}
+.a2 >input{
+  color: #2CFFF2;
+}
+.a2 >input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #2CFFF2;
+  opacity: 0.6; /* Firefox */
+}
+.a3{
+  background: linear-gradient(330.28deg,#FF54A6  100%,#FF54A6  100%,#FF54A6  100%);
+}
+.a3 >input{
+  color: #FF54A6;
+}
+.a3 >input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #FF54A6;
+  opacity: 0.6; /* Firefox */
+}
+.a4{
+  	background: linear-gradient(330.28deg,#FF3E3E  100%,#FF3E3E  100%,#FF3E3E  100%);
+}
+.a4 > input{
+ color:#FF3E3E;
+}
+.a4 >input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #FF3E3E;
+  opacity: 0.6; /* Firefox */
+}
+.inp-border:focus-within{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+		background: linear-gradient(330.28deg,#2CFFF2       0%, #1E78FF  30.73%, #FF54A6  55.73%, #FF6E1D       79.17%, #FF3E3E  100%);
+}
+.inp-border:hover{
+		background: linear-gradient(330.28deg,#2CFFF2       0%, #1E78FF  30.73%, #FF54A6  55.73%, #FF6E1D       79.17%, #FF3E3E  100%);
 }

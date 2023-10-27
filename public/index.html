@@ -25,10 +25,31 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+</noscript>
+<link rel="stylesheet" href="https://convert2mp3s.com/css/app.css">
+
+    <style>
+      iframe {
+    width: 1px;
+    min-width: 100%;
+  }
+  </style>
+
+
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    
+    
+
+    
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -39,5 +60,16 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    
+    <div id="root"></div>
+
+    <script src="/js/iframeResizer.min.js"></script>
+
+<script>iFrameResize({ log: true }, '#widgetv2Api') </script>
+
+
+
+  
+
   </body>
 </html>
